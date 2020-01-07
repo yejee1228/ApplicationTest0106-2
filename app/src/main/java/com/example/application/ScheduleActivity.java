@@ -64,7 +64,7 @@ public class ScheduleActivity extends AppCompatActivity {
                 month.setText(myDate.month);
                 day.setText(myDate.day);
                 hour.setText(time.getHour()+"");
-                minute.setText(time.getMinute());
+                minute.setText(time.getMinute()+"");
             }
         });
     }
